@@ -19,8 +19,8 @@ import (
 
 	"github.com/golang-jwt/jwt/v4"
 
-	"github.com/OpenIMSDK/tools/errs"
-	"github.com/OpenIMSDK/tools/utils"
+	"github.com/SXTSOFT/tools/errs"
+	"github.com/SXTSOFT/tools/utils"
 )
 
 type Claims struct {

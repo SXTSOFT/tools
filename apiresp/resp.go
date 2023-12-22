@@ -17,7 +17,7 @@ package apiresp
 import (
 	"reflect"
 
-	"github.com/OpenIMSDK/tools/errs"
+	"github.com/SXTSOFT/tools/errs"
 )
 
 type ApiResponse struct {

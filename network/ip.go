@@ -15,7 +15,7 @@
 package network
 
 import (
-	"github.com/OpenIMSDK/tools/utils"
+	"github.com/SXTSOFT/tools/utils"
 
 	"github.com/SXTSOFT/protocol/constant"
 )

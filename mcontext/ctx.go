@@ -17,8 +17,8 @@ package mcontext
 import (
 	"context"
 
-	"github.com/OpenIMSDK/tools/errs"
 	"github.com/SXTSOFT/protocol/constant"
+	"github.com/SXTSOFT/tools/errs"
 )
 
 var mapper = []string{constant.OperationID, constant.OpUserID, constant.OpUserPlatform, constant.ConnID}

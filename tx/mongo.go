@@ -19,7 +19,7 @@ import (
 
 	"go.mongodb.org/mongo-driver/mongo"
 
-	"github.com/OpenIMSDK/tools/utils"
+	"github.com/SXTSOFT/tools/utils"
 )
 
 func NewMongo(client *mongo.Client) CtxTx {

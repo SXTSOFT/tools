@@ -17,14 +17,14 @@ package a2r
 import (
 	"context"
 
-	"github.com/OpenIMSDK/tools/checker"
+	"github.com/SXTSOFT/tools/checker"
 
 	"github.com/gin-gonic/gin"
 	"google.golang.org/grpc"
 
-	"github.com/OpenIMSDK/tools/apiresp"
-	"github.com/OpenIMSDK/tools/errs"
-	"github.com/OpenIMSDK/tools/log"
+	"github.com/SXTSOFT/tools/apiresp"
+	"github.com/SXTSOFT/tools/errs"
+	"github.com/SXTSOFT/tools/log"
 )
 
 func Call[A, B, C any](

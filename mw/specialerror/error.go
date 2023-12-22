@@ -14,7 +14,7 @@
 
 package specialerror
 
-import "github.com/OpenIMSDK/tools/errs"
+import "github.com/SXTSOFT/tools/errs"
 
 var handlers []func(err error) errs.CodeError
 

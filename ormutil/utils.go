@@ -19,7 +19,7 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/OpenIMSDK/tools/errs"
+	"github.com/SXTSOFT/tools/errs"
 )
 
 func GormPage[E any](db *gorm.DB, pageNumber, showNumber int32) (uint32, []*E, error) {

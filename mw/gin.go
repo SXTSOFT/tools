@@ -20,9 +20,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/OpenIMSDK/tools/apiresp"
-	"github.com/OpenIMSDK/tools/errs"
 	"github.com/SXTSOFT/protocol/constant"
+	"github.com/SXTSOFT/tools/apiresp"
+	"github.com/SXTSOFT/tools/errs"
 )
 
 // CorsHandler gin cross-domain configuration.

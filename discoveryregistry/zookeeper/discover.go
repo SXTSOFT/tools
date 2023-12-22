@@ -21,8 +21,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/OpenIMSDK/tools/errs"
-	"github.com/OpenIMSDK/tools/log"
+	"github.com/SXTSOFT/tools/errs"
+	"github.com/SXTSOFT/tools/log"
 
 	"github.com/go-zookeeper/zk"
 	"google.golang.org/grpc"
