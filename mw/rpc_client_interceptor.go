@@ -24,10 +24,10 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/OpenIMSDK/protocol/constant"
-	"github.com/OpenIMSDK/protocol/errinfo"
 	"github.com/OpenIMSDK/tools/errs"
 	"github.com/OpenIMSDK/tools/log"
+	"github.com/SXTSOFT/protocol/constant"
+	"github.com/SXTSOFT/protocol/errinfo"
 )
 
 func GrpcClient() grpc.DialOption {
